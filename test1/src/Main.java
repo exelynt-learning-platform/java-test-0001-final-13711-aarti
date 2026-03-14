@@ -2,17 +2,11 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-
-
-                int n = 5; // height of the upper half
-
-                // Upper part
+                int n = 5;
                 for (int i = 1; i <= n; i++) {
-                    // leading spaces
                     for (int j = i; j < n; j++) {
                         System.out.print(" ");
                     }
-                    // stars with spacing
                     if (i == 1) {
                         System.out.println("*");
                     } else {
@@ -24,13 +18,11 @@ public class Main {
                     }
                 }
 
-                // Lower part
                 for (int i = n - 1; i >= 1; i--) {
-                    // leading spaces
+
                     for (int j = i; j < n; j++) {
                         System.out.print(" ");
                     }
-                    // stars with spacing
                     if (i == 1) {
                         System.out.println("*");
                     } else {
